@@ -6,9 +6,11 @@ phases:
       - echo "Installing..."
   build:
     commands:
-      - echo "Building..."
+      - echo "Building project..."
 
 artifacts:
   files:
     - '**/*'
+  discard-paths: yes
+
 
